@@ -8,5 +8,5 @@ cd bcm2835-1.50;
 make;
 sudo make install
 
-# install python library that works with AM2302 sensor
-pip install am2302_rpi
+# install python libraries
+cd src && sudo pip install -r requirements.txt

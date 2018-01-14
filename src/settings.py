@@ -6,7 +6,7 @@ pin_number = 4
 retry_times = 10
 
 
-if os.environ['GRAPHITE_SERVER']:
+if 'GRAPHITE_SERVER' in os.environ:
 	graphite_server = os.environ['GRAPHITE_SERVER']
-if os.environ['GRAPHITE_PORT']:
+if 'GRAPHITE_PORT' in os.environ:
 	graphite_port = os.environ['GRAPHITE_PORT']

@@ -16,3 +16,7 @@ NOTE: if you see some crazy compilation errors, than most likely bcm2835 library
 `python src/run.py`
 
 The script itself has schedule, so you don't need to add it to crontab. I run it in background using nohub and run it on system statup.
+
+## Register as a service
+
+http://devopspy.com/linux/python-script-linux-systemd-service/

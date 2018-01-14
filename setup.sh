@@ -9,4 +9,5 @@ make;
 sudo make install
 
 # install python libraries
-cd src && pip install -r requirements.txt
+cd src && sudo pip install -r requirements.txt
+

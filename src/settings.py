@@ -6,6 +6,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG,
                     format="%(asctime)s - %(filename)s:%(funcName)s:%(lineno)d - %(levelname)s - %(message)s")
 
+
 graphite_server = "localhost"
 graphite_port = 2003
 pin_number = 4

@@ -3,6 +3,8 @@ import graphitesend
 from random import *
 import settings
 import time
+import logging
+
 
 PIN = settings.pin_number
 RETRY_TIMES = settings.retry_times
@@ -43,6 +45,6 @@ while True:
 	# graphitesend.send('temperature', temp)
 	# graphitesend.send('humidity', hum)
 
-	print 'temperature: {}, humidity: {}'.format(temp, hum)
+	logging.info('temperature: {}, humidity: {}'.format(temp, hum))
 
 	time.sleep(5)

@@ -5,6 +5,8 @@ In my configuration this script works with AM2302 and Raspberry Pi 3, but it may
 
 # Installation
 
+Update `src/settings.py` with your configuration of Graphite.
+
 Run `sh setup.sh` compile and install dependencies
 
 NOTE: if you see some crazy compilation errors, than most likely bcm2835 library doesn't work with your hardware. Try to google "bcm2835 <your raspberry version>" for solution. 

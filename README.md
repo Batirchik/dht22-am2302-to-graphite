@@ -1,4 +1,4 @@
-# from-dht22-am2302-to-graphite
+# Read humidity and temperature from AM2302 sensor and save to Graphite
 Python script that reads the DHT series of humidity and temperature sensors on a Raspberry Pi or Beaglebone Black and saves into Grafana
 
 In my configuration this script works with AM2302 and Raspberry Pi 3, but it may also work with Raspberry Pi 2. The main problem is to make BCM2835 C library compile and work correctly.

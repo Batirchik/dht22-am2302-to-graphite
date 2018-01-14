@@ -4,4 +4,4 @@ PIN = 4
 temp = am.get_temperature(PIN)
 hum = am.get_humidity(PIN)
 
-print 'temperature: %(temp), humidity: %(hum)' % {"temp": "Python", "hum": 2}
+print 'temperature: {}, humidity: {}' % temp, hum

@@ -1,4 +1,4 @@
-# import am2302_ths as am
+import am2302_ths as am
 import graphitesend
 from random import *
 import settings
@@ -17,10 +17,10 @@ graphitesend.init(
 
 
 def get_stats():
-	temperature = randint(1, 100)
-	humidity = randint(1, 100)
-	# temperature = am.get_temperature(PIN)
-	# humidity = am.get_humidity(PIN)
+	# temperature = randint(1, 100)
+	# humidity = randint(1, 100)
+	temperature = am.get_temperature(PIN)
+	humidity = am.get_humidity(PIN)
 	return temperature, humidity
 
 
